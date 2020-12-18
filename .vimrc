@@ -13,7 +13,7 @@ endif
 set encoding=utf-8
 set tabstop=2|set shiftwidth=2|set expandtab|set softtabstop=2
 
-"let g:netrw_home='~/.cache/vim'
+let g:netrw_home='~/.cache/vim'
 
 syntax on
 colorscheme Sunburst
