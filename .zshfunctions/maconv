@@ -1,0 +1,16 @@
+# This is a very specific function that handles the processing of
+# vendor data files before they are sent to the vender. The files
+# are unix formatted CSV files, but lacking the .csv extension.
+# This script will format the files for DOS and add the .csv
+# extension so they can be sent the the vendor in the format
+# that they require
+
+function maconv {
+  for i in $@
+  do
+    unix2dos -q "$i"
+
+    FILE="${i%.*}"
+    mv "$i" "$FILE.csv"
+  done
+}

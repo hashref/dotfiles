@@ -1,0 +1,33 @@
+[user]
+  name = "David Betz"
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim
+  autocrlf = input
+[color]
+  branch = auto
+  diff = auto
+  grep = auto
+  interative = auto
+  showbranch = auto
+  status = auto
+  ui = auto
+[merge]
+  ff = false
+[pull]
+  ff = only
+[alias]
+  co = checkout
+  cb = checkout -b
+  ci = commit
+  all = add .
+  br = branch
+  st = status --ignore-submodules=dirty
+  pl = pull
+  ps = push
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  edit = "!vim `git ls-files -m` -p"
+  unmerged = branch --no-merged
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue) <%an>%Creset' --abbrev-commit
+[include]
+  path = ~/.gitconfiglocal
