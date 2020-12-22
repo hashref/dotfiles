@@ -18,3 +18,7 @@
 	path = vim-surround
 	url = https://github.com/tpope/vim-surround.git
   ignore=untracked
+[submodule "pure"]
+	path = pure
+	url = https://github.com/sindresorhus/pure.git
+  ignore=untracked
