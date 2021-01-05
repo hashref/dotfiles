@@ -1,1 +1,3 @@
-fpath=( ~/.zshfunctions "${fpath[@]}" )
+fpath=( ~/.zshfunctions ~/.zsh-theme "${fpath[@]}" )
+
+export EDITOR=vim

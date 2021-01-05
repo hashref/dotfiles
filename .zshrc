@@ -1,5 +1,3 @@
-fpath+=$HOME/.zsh-theme
-
 autoload -Uz promptinit && promptinit
 prompt pure
 
