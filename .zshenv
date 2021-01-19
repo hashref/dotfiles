@@ -1,4 +1,20 @@
-fpath=( ~/.plenv/bin ~/.zshfunctions ~/.zsh-theme "${fpath[@]}" )
+# ZSH
+fpath=( ~/.zshfunctions ~/.zsh-theme "${fpath[@]}" );
 
-export EDITOR=vim
-export GNUPGHOME=~/.local/share/gnupg
+# EDITOR
+export EDITOR='vim'
+export VISUAL='vim'
+
+# GPG
+export GNUPGHOME="~/.local/share/gnupg"
+
+# LOCAL BIN
+if [ -d ~/.local/bin ]; then
+  export PATH="$HOME/.local/bin:$PATH"
+#  fpath=( ~/.local/bin "${fpath[@]}" );
+fi 
+
+# LOCAL CONFIGURATIONS
+if [ -f ~/.local/share/zsh/zshenv ]; then
+  source ~/.local/share/zsh/zshenv
+fi
