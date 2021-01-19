@@ -10,6 +10,7 @@ fi
 
 alias rm="rm -i"
 alias ll="ls -l"
+alias hsearch="fc -l 0 | grep"
 
 # Local Configurations
 if [ -f ~/.local/share/zsh/zshrc ]
