@@ -16,11 +16,6 @@ alias rm="rm -i"
 alias ll="ls -l"
 alias hsearch="fc -l 0 | grep"
 
-# PLENV
-if [ $+commands[plenv] -eq 1 ]; then
-  eval "$(plenv init -)"
-fi
-
 # LOCAL CONFIGURATIONS
 if [ -f ~/.local/share/zsh/zshrc ]
 then
