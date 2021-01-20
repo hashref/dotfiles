@@ -1,24 +1,24 @@
 [submodule "vim-pathogen"]
-	path = vim-pathogen
+	path = .submodules/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
   ignore=untracked
 [submodule "vim-sunburst"]
-	path = vim-sunburst
+	path = .submodules/vim-sunburst
 	url = git@github.com:hashref/vim-sunburst.git
   ignore=untracked
 [submodule "vim-easy-align"]
-	path = vim-easy-align
+	path = .submodules/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align.git
   ignore=untracked
 [submodule "vim-relativity"]
-	path = vim-relativity
+	path = .submodules/vim-relativity
 	url = https://github.com/kennykaye/vim-relativity.git
   ignore=untracked
 [submodule "vim-surround"]
-	path = vim-surround
+	path = .submodules/vim-surround
 	url = https://github.com/tpope/vim-surround.git
   ignore=untracked
 [submodule "pure"]
-	path = pure
+	path = .submodules/pure
 	url = https://github.com/sindresorhus/pure.git
   ignore=untracked
