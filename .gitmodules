@@ -22,3 +22,6 @@
 	path = .submodules/pure
 	url = https://github.com/sindresorhus/pure.git
   ignore=untracked
+[submodule ".submodules/tmux-themepack"]
+	path = .submodules/tmux-themepack
+	url = https://github.com/jimeh/tmux-themepack.git
