@@ -11,10 +11,9 @@ export GNUPGHOME="~/.local/share/gnupg"
 # LOCAL BIN
 if [ -d ~/.local/bin ]; then
   export PATH="$HOME/.local/bin:$PATH"
-#  fpath=( ~/.local/bin "${fpath[@]}" );
 fi 
 
 # LOCAL CONFIGURATIONS
-if [ -f ~/.local/share/zsh/zshenv ]; then
-  source ~/.local/share/zsh/zshenv
+if [ -f ~/.local/config/zsh/zshenv ]; then
+  source ~/.local/config/zsh/zshenv
 fi
