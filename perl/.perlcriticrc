@@ -1,0 +1,43 @@
+severity = 4
+
+[Subroutines::RequireFinalReturn]
+# bump down from 4 to 3
+severity = 3
+
+[Variables::RequireLocalizedPunctuationVars]
+# bump down from 4 to 3
+severity = 3
+allow = %SIG
+
+[Subroutines::ProhibitBuiltinHomonyms]
+# bump down from 4 to 3
+severity = 3
+
+[InputOutput::RequireBriefOpen]
+# bump down from 4 to 3
+severity = 3
+
+[ValuesAndExpressions::ProhibitLongChainsOfMethodCalls]
+max_chain_length = 8
+
+[CodeLayout::RequireTidyCode]
+perltidyrc = /home/opfer/.perltidyrc
+
+[ControlStructures::ProhibitPostfixControls]
+allow = if unless
+
+[-Modules::RequireVersionVar]
+
+[-ControlStructures::ProhibitUnlessBlocks]
+
+[-ErrorHandling::RequireCarping]
+
+[-Subroutines::ProhibitExcessComplexity]
+
+[-ControlStructures::ProhibitDeepNests]
+
+[-ValuesAndExpressions::ProhibitMagicNumbers]
+
+[-ValuesAndExpressions::ProhibitEmptyQuotes]
+
+[-ValuesAndExpressions::ProhibitNoisyQuotes]
