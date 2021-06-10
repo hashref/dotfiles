@@ -14,6 +14,6 @@ if [ -d ~/.local/bin ]; then
 fi 
 
 # LOCAL CONFIGURATIONS
-if [ -f ~/.local/config/zsh/zshenv ]; then
-  source ~/.local/config/zsh/zshenv
+if [ -f ~/.config/zsh/zshenv ]; then
+  source ~/.config/zsh/zshenv
 fi
