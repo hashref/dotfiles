@@ -17,7 +17,8 @@ alias ll="ls -l"
 alias hsearch="fc -l 0 | grep"
 
 # LOCAL CONFIGURATIONS
-if [ -f ~/.local/config/zsh/zshrc ]
+if [ -f ~/.config/zsh/zshrc ]
 then
-  source ~/.local/config/zsh/zshrc
+  source ~/.config/zsh/zshrc
 fi
+
