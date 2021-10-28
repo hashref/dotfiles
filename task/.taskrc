@@ -24,3 +24,8 @@ report.today.columns=status,description
 report.today.sort=modified
 report.today.filter=(status:pending and modified:today) or (status:completed and end:today)
 
+taskd.server=betz.org:53589
+taskd.credentials=BETZORG\/darkstar\/8e3200d8-35cd-401f-9f41-c5d16f783fc2
+taskd.certificate=\/Users\/dbetz\/.task\/darkstar.cert.pem
+taskd.key=\/Users\/dbetz\/.task\/darkstar.key.pem
+taskd.ca=\/Users\/dbetz\/.task\/ca.cert.pem
