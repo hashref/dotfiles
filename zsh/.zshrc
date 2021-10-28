@@ -21,21 +21,26 @@ alias ll="ls -l"
 alias history="fc -l 1"
 alias hsearch="fc -l 0 | grep"
 
-# GLOBAL DOCKER ALIASES
-if type -p "docker" > /dev/null
-then
+# Docker
+if type -p "docker" > /dev/null; then
   alias dockermem="docker ps -q | xargs  docker stats --no-stream"
 fi
 
+# Task
+if type -p "task" > /dev/null; then
+  alias t="task"
+  alias tcase="t add +Cases"
+  alias tmr="t add +MergeRequest"
+  alias today="t today | cut -b 11- | sed 1,3d | sed -n -e :a -e '1,2!{P;N;D;};N;ba' | sed -e 's/^/* /';"
+fi
+
 # ZSH FUNCTIONS
-if type -p "unix2dos" > /dev/null
-then
+if type -p "unix2dos" > /dev/null; then
   autoload maconv -U
 fi
 
 # LOCAL CONFIGURATIONS
-if [ -f ~/.config/zsh/zshrc ]
-then
-  source ~/.config/zsh/zshrc
+if [ -f ${HOME}/.local/share/zsh/zshrc ]; then
+  source ${HOME}/.local/share/zsh/zshrc
 fi
 
