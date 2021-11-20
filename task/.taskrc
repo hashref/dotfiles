@@ -29,6 +29,3 @@ taskd.credentials=BETZORG\/darkstar\/8e3200d8-35cd-401f-9f41-c5d16f783fc2
 taskd.certificate=\/Users\/dbetz\/.task\/darkstar.cert.pem
 taskd.key=\/Users\/dbetz\/.task\/darkstar.key.pem
 taskd.ca=\/Users\/dbetz\/.task\/ca.cert.pem
-context.home=+home
-context.work=+work
-context=work
