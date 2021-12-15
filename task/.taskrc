@@ -17,7 +17,7 @@ data.location=~/.task
 include ~/.task/tasksync.conf
 
 # Color theme (uncomment one to use)
-include /usr/local/Cellar/task/2.5.3/share/doc/task/rc/dark-gray-blue-256.theme
+include /usr/local/Cellar/task/2.6.1/share/doc/task/rc/dark-gray-blue-256.theme
 
 report.today.description=A simple report for that was worked on today
 report.today.columns=status,description
