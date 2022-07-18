@@ -21,6 +21,10 @@ alias ll="ls -l"
 alias history="fc -l 1"
 alias hsearch="fc -l 0 | grep"
 
+if type -p "curl" > /dev/null; then
+  alias externalIP="curl https://icanhazip.com"
+fi
+
 # Docker
 if type -p "docker" > /dev/null; then
   alias dockermem="docker ps -q | xargs  docker stats --no-stream"
@@ -38,6 +42,7 @@ fi
 if type -p "unix2dos" > /dev/null; then
   autoload maconv -U
 fi
+
 
 # LOCAL CONFIGURATIONS
 if [ -f ${HOME}/.local/share/zsh/zshrc ]; then
