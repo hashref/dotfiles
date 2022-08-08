@@ -35,7 +35,7 @@ if type -p "task" > /dev/null; then
   alias t="task"
   alias tcase="t add +Cases"
   alias tmr="t add +MergeRequest"
-  alias today="t today +work | cut -b 11- | sed 1,3d | sed -n -e :a -e '1,2!{P;N;D;};N;ba' | sed -e 's/^/* /';"
+  alias today="t today +work | cut -b 11- | sed 1,3d | sed -n -e :a -e '1,2!{P;N;D;};N;ba' | sed -e 's/^/- /';"
 fi
 
 # ZSH FUNCTIONS
