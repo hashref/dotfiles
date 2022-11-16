@@ -26,3 +26,9 @@
 [submodule ".submodules/tmux-themepack"]
   path = .submodules/tmux-themepack
   url = https://github.com/jimeh/tmux-themepack.git
+  ignore = untracked
+[submodule ".submodules/vim-ansiesc"]
+	path = .submodules/vim-ansiesc
+	url = https://github.com/vim-scripts/AnsiEsc.vim.git
+  ignore = untracked
+
