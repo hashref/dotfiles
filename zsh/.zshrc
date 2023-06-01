@@ -43,9 +43,8 @@ if type -p "unix2dos" > /dev/null; then
   autoload maconv -U
 fi
 
-
 # LOCAL CONFIGURATIONS
-if [ -f ${HOME}/.local/share/zsh/zshrc ]; then
-  source ${HOME}/.local/share/zsh/zshrc
+if [ -f ${HOME}/.config/zsh/zshrc ]; then
+  source ${HOME}/.config/zsh/zshrc
 fi
 
